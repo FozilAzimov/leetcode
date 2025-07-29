@@ -16,7 +16,7 @@
 // 0 <= arr.length <= 1000
 
 // Answare:
-Array.prototype.last = function () {
-  return this.length ? this.at(-1) : -1;
-};
-console.log([1, 2, 3, null].last());
+// Array.prototype.last = function () {
+//   return this.length ? this.at(-1) : -1;
+// };
+// console.log([1, 2, 3, null].last());
