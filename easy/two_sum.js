@@ -1,4 +1,5 @@
-// 1. Question:
+// 1. Two Sum
+// Question:
 
 // Given an array of integers nums and an integer target,
 // return indices of the two numbers such that they add up to target.
@@ -17,16 +18,16 @@
 // Output: [0,1]
 
 // Answare:
-// let twoSum = (nums, target) => {
-//   let arr = [];
-//   for (let i = 0; i < nums.length; i++) {
-//     for (let j = i + 1; j < nums.length; j++) {
-//       if (nums[i] + nums[j] === target) {
-//         arr.push(i, j);
-//         break;
-//       }
-//     }
-//   }
-//   return arr;
-// };
-// console.log(twoSum([2, 7, 11, 15, 25], 27));
+let twoSum = (nums, target) => {
+  let arr = [];
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        arr.push(i, j);
+        break;
+      }
+    }
+  }
+  return arr;
+};
+console.log(twoSum([2, 7, 11, 15, 25], 27));
