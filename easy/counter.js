@@ -23,4 +23,4 @@
 // calls[i] === "call"
 
 // Answare:
-// let createCounter = (n) => () => n++;
+let createCounter = (n) => () => n++;
