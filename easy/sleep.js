@@ -19,7 +19,7 @@
 // 1 <= millis <= 1000
 
 // Answare:
-// async function sleep(millis) {
-//   return new Promise((resolve) => setTimeout(() => resolve(millis), millis));
-// }
-// console.log(sleep(100));
+async function sleep(millis) {
+  return new Promise((resolve) => setTimeout(() => resolve(millis), millis));
+}
+console.log(sleep(100));
