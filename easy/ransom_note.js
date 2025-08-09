@@ -18,7 +18,7 @@
 // Input: ransomNote = "aa", magazine = "aab"
 // Output: true
 
-// Answare
+// Answare:
 let canConstruct = (ransomNote, magazine) => {
   let count = 0;
   let len = ransomNote.length;
