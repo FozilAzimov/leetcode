@@ -14,5 +14,7 @@ let myPow = (x, n) => {
 };
 
 console.log(myPow(2.0, 10));
+
 console.log(myPow(2.1, 3));
+
 console.log(myPow(2.0, -2));
