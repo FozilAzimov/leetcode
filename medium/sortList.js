@@ -11,3 +11,6 @@ let sortList = (head) => {
   arr.forEach((v) => (cur = cur.next = { val: v, next: null }));
   return obj.next;
 };
+
+console.log(sortList([4, 2, 1, 3]));
+console.log(sortList([1, 2, 3, 4]));
